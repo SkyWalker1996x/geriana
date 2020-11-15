@@ -12,12 +12,21 @@
   }
   .preferences__inner {
     display: flex;
+    @media screen and (max-width: 1024px) {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      row-gap: 75px;
+    }
     .preferences__list {
       max-width: 460px;
       margin-right: 215px;
       display: flex;
       flex-direction: column;
       row-gap: 40px;
+      @media screen and (max-width: 1024px) {
+        margin-right: 0;
+      }
       .preferences__item {
         position: relative;
         padding-top: 5px;
@@ -39,10 +48,20 @@
       max-width: 510px;
       display: flex;
       flex-direction: column;
+      @media screen and (max-width: 1024px) {
+        padding-top: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
       .label__title {
         margin-bottom: 70px;
         font-size: 80px;
         font-weight: 900;
+        @media screen and (max-width: 768px) {
+          font-size: 36px;
+          margin-bottom: 25px;
+        }
       }
       .label__link {
         width: fit-content;
@@ -52,6 +71,9 @@
         &:hover {
           background-color: #ffffff;
           color: #66cfcf;
+        }
+        @media screen and (max-width: 768px) {
+          padding: 10px 20px;
         }
       }
     }

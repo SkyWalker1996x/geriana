@@ -5,6 +5,12 @@
   .footer__inner {
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 1024px) {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      row-gap: 50px;
+    }
     .footer__info {
       max-width: 225px;
       .info__logo {
@@ -31,7 +37,7 @@
     }
     .footer__additional {
       display: flex;
-      column-gap: 75px;
+      column-gap: 50px;
       .additional__column {
         display: flex;
         flex-direction: column;

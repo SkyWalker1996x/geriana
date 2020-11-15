@@ -16,10 +16,16 @@
       margin-bottom: 10px;
       color: #8ae2e2;
       font-size: 80px;
+      @media screen and (max-width: 768px) {
+        font-size: 36px;
+      }
     }
     .intro__subtitle {
       margin-bottom: 30px;
       font-size: 58px;
+      @media screen and (max-width: 768px) {
+        font-size: 18px;
+      }
     }
     .intro__text {
       max-width: 770px;
@@ -35,6 +41,9 @@
       border-radius: 6px;
       &:hover {
         background-color: darken(#ff5151, 5%);
+      }
+      @media screen and (max-width: 768px) {
+        padding: 15px 30px;
       }
     }
   }

@@ -8,13 +8,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+      row-gap: 25px;
+      align-items: center;
+      justify-content: center;
+    }
+    @media screen and (max-width: 768px) {
+      font-size: 14px;
+      text-align: center;
+    }
     .header__left {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     .navigation {
-      max-width: 300px;
+      width: 300px;
       display: flex;
       justify-content: space-between;
       align-items: center;

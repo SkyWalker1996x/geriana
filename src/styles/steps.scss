@@ -4,6 +4,12 @@
   background-color: #66cfcf;
   .steps__inner {
     display: flex;
+    @media screen and (max-width: 1439px) {
+      flex-direction: column;
+      row-gap: 50px;
+      align-items: center;
+      justify-content: center;
+    }
     .steps__label {
       max-width: 575px;
       margin-top: 40px;
@@ -11,10 +17,19 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      @media screen and (max-width: 1439px) {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
       .label__title {
         margin-bottom: 70px;
         font-size: 80px;
         font-weight: 900;
+        @media screen and (max-width: 768px) {
+          font-size: 36px;
+          margin-bottom: 25px;
+        }
       }
       .label__link {
         width: fit-content;
@@ -25,12 +40,21 @@
           background-color: #ffffff;
           color: #66cfcf;
         }
+        @media screen and (max-width: 768px) {
+          padding: 10px 20px;
+        }
       }
     }
     .steps__list {
       display: flex;
       flex-direction: column;
       row-gap: 20px;
+      @media screen and (max-width: 1439px) {
+        transform: translateX(-125px);
+      }
+      @media screen and (max-width: 1439px) {
+        transform: translateX(-90px);
+      }
       .step__item {
         position: relative;
         margin-left: 120px;
@@ -62,6 +86,9 @@
             position: absolute;
             top: 25px;
             right: 300px;
+            @media screen and (max-width: 768px) {
+              content: none;
+            }
           }
           &:after {
             content: none;
@@ -72,6 +99,9 @@
           position: absolute;
           top: 25px;
           left: 310px;
+          @media screen and (max-width: 768px) {
+            content: none;
+          }
         }
         &:last-child {
           &:before {
