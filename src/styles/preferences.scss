@@ -1,0 +1,58 @@
+.preferences {
+  position: relative;
+  width: 100%;
+  padding: 160px 105px 165px;
+  background-color: #005173;
+  &:after {
+    content: url("../assets/images/preferences/logo-shape.png");
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+  }
+  .preferences__inner {
+    display: flex;
+    .preferences__list {
+      max-width: 460px;
+      margin-right: 215px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 40px;
+      .preferences__item {
+        position: relative;
+        padding-top: 5px;
+        font-size: 16px;
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          width: 50px;
+          height: 2px;
+          background-color: #66cfcf;
+        }
+      }
+    }
+    .preferences__label {
+      position: relative;
+      z-index: 10;
+      max-width: 510px;
+      display: flex;
+      flex-direction: column;
+      .label__title {
+        margin-bottom: 70px;
+        font-size: 80px;
+        font-weight: 900;
+      }
+      .label__link {
+        width: fit-content;
+        padding: 25px 50px;
+        border-radius: 6px;
+        border: 2px solid #ffffff;
+        &:hover {
+          background-color: #ffffff;
+          color: #66cfcf;
+        }
+      }
+    }
+  }
+}
