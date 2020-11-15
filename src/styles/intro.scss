@@ -31,6 +31,7 @@
     .intro__button {
       padding: 25px 50px;
       background-color: #ff5151;
+      border-radius: 6px;
       &:hover {
         background-color: darken(#ff5151, 5%);
       }
