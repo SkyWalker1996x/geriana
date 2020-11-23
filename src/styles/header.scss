@@ -50,6 +50,10 @@
       margin-right: 10px;
     }
     .header__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 10px;
       margin: 0 10px;
       width: fit-content;
       padding: 12px 17px;
@@ -57,9 +61,21 @@
       font-size: 16px;
       border: 2px solid #ffffff;
       font-weight: 700;
+      text-transform: uppercase;
       &:hover {
         background-color: #ffffff;
         color: #66cfcf;
+        .button__icon {
+          fill: #66cfcf;
+        }
+      }
+      .button__icon {
+        width: 18px;
+        height: 18px;
+        padding: 2px;
+        background-color: #fff;
+        border-radius: 50%;
+        fill: #758d5d;
       }
     }
   }

@@ -29,6 +29,27 @@
         .social__list {
           display: flex;
           column-gap: 10px;
+          .social__link {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #85949b;
+            border-radius: 5px;
+            .social__icon {
+              width: 18px;
+              height: 18px;
+              fill: #0b2a37;
+            }
+            &:hover {
+              background-color: #0b2a37;
+              border: 1px solid #85949b;
+              .social__icon {
+                fill: #85949b;
+              }
+            }
+          }
         }
       }
       .info__copyright {
