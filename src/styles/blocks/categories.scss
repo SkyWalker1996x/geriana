@@ -1,6 +1,6 @@
 .categories {
   width: 100%;
-  background-color: #ffffff;
+  background-color: $primary-bg-color;
   .categories__inner {
     padding: 100px 35px 95px;
     display: flex;
@@ -9,7 +9,7 @@
     align-items: center;
     .categories__title {
       margin-bottom: 80px;
-      color: #0b2a37;
+      color: $secondary-color;
       font-size: 36px;
       font-weight: 900;
       @media screen and (max-width: 768px) {
@@ -38,10 +38,10 @@
           margin-bottom: 20px;
           font-size: 22px;
           font-weight: 700;
-          color: #0b2a37;
+          color: $secondary-color;
         }
         .item__text {
-          color: #0b2a37;
+          color: $secondary-color;
           font-size: 16px;
         }
       }

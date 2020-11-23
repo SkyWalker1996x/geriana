@@ -67,21 +67,21 @@
       padding: 12px 17px;
       border-radius: 6px;
       font-size: 16px;
-      border: 2px solid #ffffff;
+      border: 2px solid $primary-bg-color;
       font-weight: 700;
       text-transform: uppercase;
       &:hover {
-        background-color: #ffffff;
-        color: #66cfcf;
+        background-color: $primary-bg-color;
+        color: $marked-color;
         .button__icon {
-          fill: #66cfcf;
+          fill: $marked-color;
         }
       }
       .button__icon {
         width: 18px;
         height: 18px;
         padding: 2px;
-        background-color: #fff;
+        background-color: $primary-bg-color;
         border-radius: 50%;
         fill: #758d5d;
       }

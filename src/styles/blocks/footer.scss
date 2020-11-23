@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  background-color: #0b2a37;
+  background-color: $footer-bg-color;
   padding: 80px 40px 90px 100px;
   @media screen and (max-width: 768px) {
     padding: 60px 20px;
@@ -43,18 +43,18 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #85949b;
+            background-color: $footer-secondary-bg-color;
             border-radius: 5px;
             .social__icon {
               width: 18px;
               height: 18px;
-              fill: #0b2a37;
+              fill: $footer-bg-color;
             }
             &:hover {
-              background-color: #0b2a37;
-              border: 1px solid #85949b;
+              background-color: $footer-bg-color;
+              border: 1px solid $footer-secondary-bg-color;
               .social__icon {
-                fill: #85949b;
+                fill: $footer-secondary-bg-color;
               }
             }
           }

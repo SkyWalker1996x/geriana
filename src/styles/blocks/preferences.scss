@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   padding: 160px 105px 165px;
-  background-color: #005173;
+  background-color: $preferences-bg-color;
   @media screen and (max-width: 768px) {
     padding: 50px 20px;
   }
@@ -42,7 +42,7 @@
           top: 0;
           width: 50px;
           height: 2px;
-          background-color: #66cfcf;
+          background-color: $marked-color;
         }
       }
     }
@@ -72,10 +72,10 @@
         width: fit-content;
         padding: 25px 50px;
         border-radius: 6px;
-        border: 2px solid #ffffff;
+        border: 2px solid $primary-bg-color;
         &:hover {
-          background-color: #ffffff;
-          color: #66cfcf;
+          background-color: $preferences-bg-color;
+          color: $marked-color;
         }
         @media screen and (max-width: 1024px) {
           padding: 10px 20px;

@@ -1,14 +1,14 @@
 .comments {
   width: 100%;
   padding: 100px 35px;
-  background-color: #ffffff;
+  background-color: $primary-bg-color;
   .comments__inner {
     display: flex;
     flex-direction: column;
     align-items: center;
     .comments__title {
       margin-bottom: 80px;
-      color: #0b2a37;
+      color: $secondary-color;
       font-weight: 900;
       font-size: 36px;
       @media screen and (max-width: 768px) {
@@ -27,9 +27,9 @@
         flex-direction: column;
         .comment__text {
           margin-bottom: 30px;
-          color: #0b2a37;
+          color: $secondary-color;
           font-size: 16px;
-          background-color: #eff7f7;
+          background-color: $secondary-bg-color;
           padding: 40px 20px;
           &:after {
             content: "";
@@ -40,8 +40,8 @@
             height: 14px;
             border-bottom: solid 14px transparent;
             border-left: solid 14px transparent;
-            border-right: solid 14px #eff7f7;
-            border-top: solid 14px #eff7f7;
+            border-right: solid 14px $secondary-bg-color;
+            border-top: solid 14px $secondary-bg-color;
           }
         }
         .comment__author {
@@ -53,12 +53,12 @@
             display: flex;
             flex-direction: column;
             .author__name {
-              color: #0b2a37;
+              color: $secondary-color;
               font-size: 16px;
               font-weight: 700;
             }
             .author__position {
-              color: #0b2a37;
+              color: $secondary-color;
               font-size: 16px;
             }
           }

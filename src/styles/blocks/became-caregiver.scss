@@ -7,13 +7,13 @@
   align-items: center;
   text-align: center;
   p {
-    color: #0b2a37;
+    color: $secondary-color;
     font-size: 18px;
   }
   a {
     margin-left: 5px;
     font-size: 18px;
-    color: #8ae2e2;
+    color: $marked-color;
     text-decoration: underline;
   }
 }

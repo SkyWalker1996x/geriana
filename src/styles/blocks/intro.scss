@@ -1,11 +1,11 @@
 .intro {
   position: relative;
   padding: 245px 15px 155px;
-  background-image: url("../assets/images/intro-bg.png");
+  background-image: url("../assets/images/intro/intro-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #2e2e2e;
+  background-color: $secondary-bg-color;
   .intro__inner {
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     text-align: center;
     .intro__title {
       margin-bottom: 10px;
-      color: #8ae2e2;
+      color: $marked-color;
       font-size: 80px;
       @media screen and (max-width: 768px) {
         font-size: 36px;
@@ -32,7 +32,7 @@
       margin-bottom: 40px;
       font-size: 26px;
       span {
-        color: #8ae2e2;
+        color: $marked-color;
       }
     }
     .intro__button {

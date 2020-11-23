@@ -1,7 +1,7 @@
 .steps {
   padding: 90px 45px 100px 60px;
   width: 100%;
-  background-color: #66cfcf;
+  background-color: $steps-bg-color;
   .steps__inner {
     display: flex;
     @media screen and (max-width: 1439px) {
@@ -38,10 +38,10 @@
         width: fit-content;
         padding: 25px 50px;
         border-radius: 6px;
-        border: 2px solid #ffffff;
+        border: 2px solid $primary-bg-color;
         &:hover {
-          background-color: #ffffff;
-          color: #66cfcf;
+          background-color: $primary-bg-color;
+          color: $marked-color;
         }
         @media screen and (max-width: 768px) {
           padding: 10px 20px;
