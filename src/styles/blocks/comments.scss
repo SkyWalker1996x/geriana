@@ -21,11 +21,11 @@
       flex-wrap: wrap;
       justify-content: center;
       .comment__item {
-        position: relative;
         max-width: 410px;
         display: flex;
         flex-direction: column;
         .comment__text {
+          position: relative;
           margin-bottom: 30px;
           color: $secondary-color;
           font-size: 16px;
@@ -34,7 +34,7 @@
           &:after {
             content: "";
             position: absolute;
-            top: 133px;
+            top: 100%;
             right: 0;
             width: 14px;
             height: 14px;
