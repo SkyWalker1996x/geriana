@@ -11,6 +11,9 @@
       color: #0b2a37;
       font-weight: 900;
       font-size: 36px;
+      @media screen and (max-width: 768px) {
+        text-align: center;
+      }
     }
     .comments__list {
       display: flex;

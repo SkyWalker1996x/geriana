@@ -3,12 +3,17 @@
   width: 100%;
   padding: 160px 105px 165px;
   background-color: #005173;
-  &:after {
-    content: url("../assets/images/preferences/logo-shape.png");
+  @media screen and (max-width: 768px) {
+    padding: 50px 20px;
+  }
+  .preferences__image {
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: 0;
+    @media screen and (max-width: 768px) {
+      width: 420px;
+    }
   }
   .preferences__inner {
     display: flex;
@@ -58,7 +63,7 @@
         margin-bottom: 70px;
         font-size: 80px;
         font-weight: 900;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1024px) {
           font-size: 36px;
           margin-bottom: 25px;
         }
@@ -72,7 +77,7 @@
           background-color: #ffffff;
           color: #66cfcf;
         }
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1024px) {
           padding: 10px 20px;
         }
       }

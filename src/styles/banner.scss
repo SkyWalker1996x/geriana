@@ -2,9 +2,16 @@
   width: 100%;
   height: 540px;
   overflow: hidden;
+  background-color: #fff;
   img {
     width: 100%;
     height: auto;
+  }
+  &.banner-steps {
+    background-color: #66cfcf;
+  }
+  &.banner-preferences {
+    background-color: #005173;
   }
   @media screen and (max-width: 1024px) {
     height: auto;

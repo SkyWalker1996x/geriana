@@ -12,6 +12,9 @@
       color: #0b2a37;
       font-size: 36px;
       font-weight: 900;
+      @media screen and (max-width: 768px) {
+        text-align: center;
+      }
     }
     .categories__list {
       display: flex;
